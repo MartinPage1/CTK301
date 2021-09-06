@@ -1,0 +1,41 @@
+#linkLine{
+  color: red;
+}
+#greens{
+  color: #00FF00;
+  background-color: #000000;
+}
+
+h1{
+  color: #FFFFFF;
+  background-color: teal;
+}
+/*p{
+  color: red;
+  background-color: blue;
+}
+*/
+.specials{
+  color: #00FF00;
+  background-color: #FFFFFF;
+}
+a {
+ color: #FF0000;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #0000FF;
+ text-decoration: underline;
+}
+footer{
+  color: #000000;
+  background-color: #FF0000;
+}
+#divexample{
+  color: #0000FF;
+  background-color: #FFFF00;
+}
+.spanstyle{
+  color: #00FF00;
+}
