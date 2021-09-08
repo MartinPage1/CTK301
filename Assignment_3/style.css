@@ -1,0 +1,38 @@
+a:link {
+ color: red;
+}
+
+a:visited {
+ color: green;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: yellow;
+}
+main {
+  color: blue;
+}
+header{
+  color: maroon;
+}
+footer{
+  color: black;
+}
+#info{
+  color: lightblue;
+  background-color: red;
+}
+.spanstyle{
+ color: #00FF00;
+}
+.navigation{
+  background-color: lightgrey;
+}
+.image{
+  max-width: 300px;
+  height: auto;
+}
