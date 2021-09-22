@@ -1,0 +1,72 @@
+.container {
+
+}
+.ad{
+  font-family: arial;
+  text-align: center;
+  color: blue;
+  width: 670px;
+  font-size: 14px;
+}
+.top-right {
+  font-family: arial;
+  color: white;
+  position: absolute;
+  top: 8px;
+  left: 435px;
+}
+.second {
+  font-family: arial;
+  color: white;
+  position: absolute;
+  top: 23px;
+  left: 440px;
+}
+
+.third {
+  font-family: arial;
+  color: white;
+  position: absolute;
+  top: 38px;
+  left: 535px;
+}
+.center{
+  font-family: Impact;
+  color: blue;
+  position: absolute;
+  font-size: 150px;
+  top: 100px;
+  left: 200px;
+}
+.O{
+ color: orange;
+}
+.small{
+  font-size: 10px;
+}
+.pg{
+  margin-left: 250px;
+}
+.link{
+  color: blue;
+  font-family: arial;
+  margin-left: 220px;
+  font-weight: bold;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+a:active {
+  text-decoration: none;
+}
