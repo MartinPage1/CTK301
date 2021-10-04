@@ -1,0 +1,96 @@
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 5px solid black;
+  background-color: #ffffff;
+  display: grid;
+}
+#leftMain {
+    width: 65%;
+    float: left; /* add this */
+    padding: 15px;
+}
+#rightMain {
+    background-color: lightblue;
+    color: white;
+    padding: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    height: 90%;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+body {
+  background-image: url("plaid.jpg");
+  background-repeat: repeat;
+  font-family: Georgia, serif;
+}
+.doge {
+  width: 40%;
+  float: right;
+}
+.leftH2 {
+  padding-bottom: 5px;
+  border-bottom: 4px solid black;
+}
+.rightH2 {
+    padding-bottom: 5px;
+    border-bottom: 4px solid white;
+}
+header {
+    font-family: Helvetica, Arial, sans-serif;
+    border-bottom: 5px solid black;
+    padding-left: 25px;
+    background-color: lightblue;
+}
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+footer {
+  border-top: 5px solid black;
+  padding-left: 25px;
+  background-color: lightblue;
+  font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+nav li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+nav a {
+  display: block;
+  font-weight: bold;
+  padding: 15px;
+  margin: 0px;
+  width: 150px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+.linkBox {
+  background-color: green;
+  color: white;
+  padding: 20;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  border: 3px solid black;
+}
+.link {
+  color: green;
+}
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
