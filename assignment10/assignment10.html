@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Martin Mockup Home</title>
+	<link href="assignment10.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>Martin Page's Portfolio Site</h1>
+			<div id="navbar">
+				<a href="assignment10.html" class="homeBox">Home</a>
+				<a href="Contact.html" class="linkBox">Contact Me</a>
+				<a href="projects.html" class="linkBox">Projects</a>
+				<a href="about.html" class="linkBox">About This Site</a>
+			</div>
+		</header>
+		<main>
+			<div id="myCarousel" class="carousel">
+			    <div class="carousel__slide"><img src="jamboree.jpg"></div>
+			    <div class="carousel__slide"><img src="cat.jpg"></div>
+			    <div class="carousel__slide"><img src="cat2.jpg"></div>
+			</div>
+			<section>
+				<h2>What is this site?</h2>
+				<p class="homeinfo"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Tempus egestas sed sed risus pretium quam. Lectus quam id leo in vitae turpis massa sed. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Sollicitudin tempor id eu nisl nunc mi ipsum. Bibendum at varius vel pharetra vel turpis nunc. Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Eu augue ut lectus arcu bibendum at varius. Turpis in eu mi bibendum neque egestas congue quisque.
+				</p>
+			</section>
+			<section>
+				<h2>General Info</h2>
+				<p class="homeinfo"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Tempus egestas sed sed risus pretium quam. Lectus quam id leo in vitae turpis massa sed. Erat imperdiet sed euismod nisi porta lorem mollis aliquam ut. Sollicitudin tempor id eu nisl nunc mi ipsum. Bibendum at varius vel pharetra vel turpis nunc. Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Eu augue ut lectus arcu bibendum at varius. Turpis in eu mi bibendum neque egestas congue quisque.
+				</p>
+			</section>
+		</main>
+		<footer>
+			<p>This website was created by Martin Page</p>
+		</footer>
+	</div>
+	<script>
+			window.onscroll = function() {myFunction()};
+
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+			    navbar.classList.add("sticky")
+			  } else {
+			    navbar.classList.remove("sticky");
+			  }
+			}
+			var slideIndex = 0;
+			const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+			    // Your options go here
+			  });
+		</script>
+</body>
+</html>
